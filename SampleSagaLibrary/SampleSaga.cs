@@ -3,6 +3,16 @@ using NServiceBus.Persistence.Sql;
 using System;
 using System.Threading.Tasks;
 
+[assembly: SqlPersistenceSettings(
+    MsSqlServerScripts = true,
+    MySqlScripts = false,
+    OracleScripts = false,
+    PostgreSqlScripts = false,
+    ProduceOutboxScripts = false,
+    ProduceSagaScripts = true,
+    ProduceSubscriptionScripts = false,
+    ProduceTimeoutScripts = false)]
+
 namespace SampleSagaLibrary
 {
     //[SqlSaga( correlationProperty:"MyId")]
@@ -27,7 +37,7 @@ namespace SampleSagaLibrary
 
     class SampleSagaData : SampleSagaDataBaseClass
     {
-        
+
     }
 
     class AMessage
