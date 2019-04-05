@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlPSagaDataWithBaseClass", "SqlPSagaDataWithBaseClass\SqlPSagaDataWithBaseClass.csproj", "{1ECE81AA-CD46-4A54-B2C9-E6FFF6385825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleSagaLibrary", "SampleSagaLibrary\SampleSagaLibrary.csproj", "{A888F2C3-510C-4CED-BACD-47DAAEAE913D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ECE81AA-CD46-4A54-B2C9-E6FFF6385825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECE81AA-CD46-4A54-B2C9-E6FFF6385825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECE81AA-CD46-4A54-B2C9-E6FFF6385825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECE81AA-CD46-4A54-B2C9-E6FFF6385825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A888F2C3-510C-4CED-BACD-47DAAEAE913D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A888F2C3-510C-4CED-BACD-47DAAEAE913D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A888F2C3-510C-4CED-BACD-47DAAEAE913D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A888F2C3-510C-4CED-BACD-47DAAEAE913D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFE6F0C1-4DB4-47C2-A11D-03D0359755AC}
+	EndGlobalSection
+EndGlobal
